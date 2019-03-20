@@ -88,8 +88,7 @@ export const Article = styled.article`
 `;
 
 export const Image = styled.div`
-  background: #1d1a24;
-  height: 140px;
+  min-height: 100px;
   border-radius: 5px 5px 0 0;
   position: relative;
   img {

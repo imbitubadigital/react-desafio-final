@@ -16,7 +16,7 @@ class ItemMeetup extends Component {
       id: PropTypes.number,
       user_id: PropTypes.number,
       title: PropTypes.string,
-      subscribes: PropTypes.string,
+      subscribes: PropTypes.arrayOf(PropTypes.shape()),
       file: PropTypes.shape({
         url: PropTypes.string,
       }),
